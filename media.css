@@ -14,9 +14,7 @@
 /*MOBILE*/
 
 @media(max-width:739px){
-    html{
-        min-width:400px;
-    }
+
 
     /*HEADER*/
 
@@ -36,6 +34,16 @@
         padding: 0px 0px 20px 0px;
         margin-top:1px;
     }
+
+    /*IMAGE-CARROSSEL*/
+    .main_container{
+        overflow-x: hidden;
+    }
+    .main_container .carrossel-img{
+        object-fit:contain;
+        width: 110vw;
+    }
+
 
     /*NAVBAR*/
     .container nav .navbar{
