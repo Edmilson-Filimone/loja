@@ -1,0 +1,33 @@
+/*.main_container contacts
+    .imagem_about
+    .img_about       
+    .list-info*/
+
+.main_container{
+    padding:0% 10% 0% 3%;
+}
+
+.main_container .contacts{
+    display: flex;
+    justify-content:space-around;
+    padding: 10% 0% 5% 0%;
+    text-align: center;
+}
+.main_container .contacts .imagem_about{
+    
+}
+.main_container .contacts .imagem_about .img_about{
+    width:30%;
+    text-align: center;
+}
+
+.contacts .list-info{
+    list-style: none;
+    text-align:left;
+    width: 300px;
+
+}
+
+.list-info li{
+    padding:2% 0%;
+}
